@@ -9,7 +9,6 @@ describe('Log product details of Apparel and Accessories', () => {
            cy.log('Found header text: '+ headerText)
            expect(headerText).is.eq('Apparel & accessories')
            //git commit
-           //2nd change
         })
     });
 });
